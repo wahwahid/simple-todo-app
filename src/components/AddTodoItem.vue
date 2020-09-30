@@ -4,7 +4,6 @@
             rel="stylesheet" 
             href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
             crossorigin="anonymous">
-
         <form>
             <input class="input" :class="{ edit: this.edit }" type="text" v-model="todo">
             <button 

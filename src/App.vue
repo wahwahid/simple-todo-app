@@ -48,7 +48,6 @@
 
                 const checked = this.todo_items.filter(todo_item => todo_item.checked === false);
                 console.log(checked);
-                console.log(this.todo_items);
             },
             deleteItemEvent(id) {
                 this.todo_items = this.todo_items.filter(todo_item => todo_item.id !== id)

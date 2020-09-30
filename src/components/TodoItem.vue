@@ -35,7 +35,9 @@
             </p>
             <p
                 v-if="todo_item.updatedOn && !todo_item.checked">
-                updated on: <i> {{ todo_item.updatedOn }}
+                updated on: 
+                <i>
+                    {{ todo_item.updatedOn }}
                 </i>
             </p>
             <p
